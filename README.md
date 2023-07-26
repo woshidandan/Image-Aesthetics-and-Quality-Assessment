@@ -2,7 +2,22 @@
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
 # Image-Aesthetics-Assessment
-This repo contains the official implementation of the ACMMM 2023 paper: An Enhancer for Aesthetics-Oriented Transformers
+This repo contains the official implementation of the ACMMM 2023 paper:
+
+<div align="center">
+<h1>
+<b>
+EAT: An Enhancer for Aesthetics-Oriented Transformers
+</b>
+</h1>
+<h4>
+<b>
+Shuai He, Anlong Ming, Shuntian Zheng, Haobin Zhong, Huadong Ma
+    
+Beijing University of Posts and Telecommunications
+</b>
+</h4>
+</div>
 
 
 # Environment Installation
