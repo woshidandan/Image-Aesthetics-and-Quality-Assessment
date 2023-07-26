@@ -1,9 +1,11 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+
 # Image-Aesthetics-Assessment
 This repo contains the official implementation of the ACMMM 2023 paper: An Enhancer for Aesthetics-Oriented Transformers
 
-==================
-=Environment Installation=
-==================
+
+# Environment Installation
 pandas==0.22.0
 nni==1.8
 requests==2.18.4
@@ -15,9 +17,8 @@ torch==1.7.1+cu101
 scikit_learn==1.0.2
 tensorboardX==2.5
 
-==================
-=How to Check the Code=
-==================
+
+# How to Check the Code
 1. download weights from: https://drive.google.com/drive/folders/1UpLYGLU5omztVsIWkRPFTVKAOVe_4p3K?usp=sharing
 2. download datasets from their official website
 2. run main_nni.py
