@@ -32,7 +32,9 @@ Beijing University of Posts and Telecommunications
 offset奔着兴趣点所在的象限去，则削弱它的趋势，反之，则增强，鼓励网络从非显著性物体所在的背景区域探索更多的美学信息，在训练的后期，则不做什么约束，鼓励网络利用已探索的信息进行美学评分。
 * 这套框架性能真的很强，在很多下游的小型IAA任务上表现的都很不错，包括给甲方的基于这套框架改进的demo，在各种牛鬼蛇神的测试场景鲁棒性也较强。这篇工作，也是我个人在IAA赛道上刷SOTA的收官之作，我们也train过一些更SOTA的
 版本，但启发性不强。未来会做一些和IAA相关非刷SOTA的，但更有趣的工作！希望各位同行看到我们的工作，审稿时能高抬贵手，ღ( ´･ᴗ･` )比心！
+
 ![微信截图_20230825184853](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/17a1ea80-7b09-49d4-a85e-bd05464ead82)
+
 ![微信截图_20230825185815](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/142f495b-0129-4776-bbc7-d808507f643a)
 
 # 代码环境
@@ -63,8 +65,8 @@ offset奔着兴趣点所在的象限去，则削弱它的趋势，反之，则�
 ```
 
 # 组内其它同类型工作:
-+ "Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks.", [[pdf]](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/blob/main/Delegate%20Transformer%20for%20Image%20Color%20Aesthetics%20Assessment.pdf) [[code]](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment)
-+ "Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks.", [[pdf]](https://www.ijcai.org/proceedings/2022/0132.pdf) [[code]](https://github.com/woshidandan/TANet) IJCAI 2022.
++ "Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks.", [[pdf]](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/blob/main/Delegate%20Transformer%20for%20Image%20Color%20Aesthetics%20Assessment.pdf) [[code]](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment), ICCV, 2023.
++ "Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks.", [[pdf]](https://www.ijcai.org/proceedings/2022/0132.pdf) [[code]](https://github.com/woshidandan/TANet), IJCAI, 2022.
 
 # 其它
 * 我们实验室的主页：[视觉机器人与智能技术实验室](http://www.mrobotit.cn/Default.aspx)。
