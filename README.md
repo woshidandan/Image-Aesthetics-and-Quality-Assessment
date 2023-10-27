@@ -23,7 +23,7 @@ Beijing University of Posts and Telecommunications
 [[国内的小伙伴请看更详细的中文说明]](https://github.com/woshidandan/Image-Aesthetics-Assessment/blob/main/README_CN.md)This repo contains the official implementation of the **ACMMM 2023** paper.
 
 
-## 代码环境
+## Environment Installation
 * pandas==0.22.0
 * nni==1.8
 * requests==2.18.4
