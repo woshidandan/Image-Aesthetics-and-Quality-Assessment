@@ -54,3 +54,17 @@ Beijing University of Posts and Telecommunications
 1. download weights from: https://drive.google.com/drive/folders/1UpLYGLU5omztVsIWkRPFTVKAOVe_4p3K?usp=sharing
 2. download datasets from their official website
 2. run main_nni.py
+
+## If you find our work is useful, pleaes cite our paper:
+```
+@article{heeat,
+  title={EAT: An Enhancer for Aesthetics-Oriented Transformers},
+  author={Shuai He, Anlong Ming, Shuntian Zheng, Haobin Zhong, Huadong Ma},
+  journal={ACMMM},
+  year={2023},
+}
+```
+
+## Our other works:
++ "Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks.", [[pdf]](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/blob/main/Delegate%20Transformer%20for%20Image%20Color%20Aesthetics%20Assessment.pdf) [[code]](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment), ICCV, 2023.
++ "Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks.", [[pdf]](https://www.ijcai.org/proceedings/2022/0132.pdf) [[code]](https://github.com/woshidandan/TANet), IJCAI, 2022.
