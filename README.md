@@ -22,6 +22,11 @@ Beijing University of Posts and Telecommunications
 
 [[国内的小伙伴请看更详细的中文说明]](https://github.com/woshidandan/Image-Aesthetics-Assessment/blob/main/README_CN.md)This repo contains the official implementation of the **ACMMM 2023** paper.
 
+# EAT &nbsp;<a href=""><img width="48" src="https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/94354c2b-c70e-4d31-bc40-4a2c76d671ff"></a>
+* Background：Although CNN models have yielded many remarkable achievements, they are susceptible to the attention dispersion phenomenon in IAA tasks and may even fail to properly focus on the aesthetic information of the foreground. Compared to CNN counterparts, Transformer-based models are driven by attention mechanisms, which have larger receptive fields and excel at modeling long-range dependencies, thus allowing models to avoid the above problem. Nevertheless, applying Transformers for IAA is challenging because the attention mechanism of Transformers is a double-edged sword. Most Transformer models have been designed in a saliency-oriented manner to solve classic classification or segmentation problems; consequently, they can more easily focus on or even overemphasize salient objects or foreground areas, which also means that they are more prone to ignore background regions and result in \textbf{\textit{attention bias}} problem. For aesthetic tasks, however, a lack of the attention to a background is inconsistent with the original intention of a photographic work, e.g., hierarchical compositions are usually formed with the deliberate consideration of background regions. Most Transformer-based models tend to generate large prediction errors for background-sensitive images. Therefore, Transformer-based models \textbf{\textit{have not comprehensively surpassed CNN models on IAA tasks yet}}, to our knowledge. Moreover, the superfluous attention in Transformers usually leads to unnecessarily computational cost and slow convergence on IAA tasks and may even result in overfitting on small IAA datasets.
+
+![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/252d9bfc-4fac-47f5-bee8-930aecdec109)
+
 
 ## Environment Installation
 * pandas==0.22.0
