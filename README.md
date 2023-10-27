@@ -23,9 +23,18 @@ Beijing University of Posts and Telecommunications
 [[国内的小伙伴请看更详细的中文说明]](https://github.com/woshidandan/Image-Aesthetics-Assessment/blob/main/README_CN.md)This repo contains the official implementation of the **ACMMM 2023** paper.
 
 # EAT &nbsp;<a href=""><img width="48" src="https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/94354c2b-c70e-4d31-bc40-4a2c76d671ff"></a>
-* Background：Although CNN models have yielded many remarkable achievements, they are susceptible to the attention dispersion phenomenon in IAA tasks and may even fail to properly focus on the aesthetic information of the foreground. Compared to CNN counterparts, Transformer-based models are driven by attention mechanisms, which have larger receptive fields and excel at modeling long-range dependencies, thus allowing models to avoid the above problem. Nevertheless, applying Transformers for IAA is challenging because the attention mechanism of Transformers is a double-edged sword. Most Transformer models have been designed in a saliency-oriented manner to solve classic classification or segmentation problems; consequently, they can more easily focus on or even overemphasize salient objects or foreground areas, which also means that they are more prone to ignore background regions and result in \textbf{\textit{attention bias}} problem. For aesthetic tasks, however, a lack of the attention to a background is inconsistent with the original intention of a photographic work, e.g., hierarchical compositions are usually formed with the deliberate consideration of background regions. Most Transformer-based models tend to generate large prediction errors for background-sensitive images. Therefore, Transformer-based models \textbf{\textit{have not comprehensively surpassed CNN models on IAA tasks yet}}, to our knowledge. Moreover, the superfluous attention in Transformers usually leads to unnecessarily computational cost and slow convergence on IAA tasks and may even result in overfitting on small IAA datasets.
-
+* Background：Most Transformer-based models tend to generate large prediction errors for background-sensitive images. Therefore, Transformer-based models \textbf{\textit{have not comprehensively surpassed CNN models on IAA tasks yet}}, to our knowledge. However, a lack of the attention to a background is inconsistent with the original intention of a photographic work, e.g., hierarchical compositions are usually formed with the deliberate consideration of background regions. Moreover, the superfluous attention in Transformers usually leads to unnecessarily computational cost and slow convergence on IAA tasks and may even result in overfitting on small IAA datasets.
 ![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/252d9bfc-4fac-47f5-bee8-930aecdec109)
+* EAT: To guide the IAA model to locate more reasonable regions, we present an Enhancer for Aesthetics-Oriented Transformers (EAT) based on the deformable attention, which is able to learn where to locate interest points and how to refine attention by means of offsets for IAA.
+![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/b83441bf-45be-422c-9591-0a65a407ce11)
+![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/862933ad-76bf-438f-960e-9cfc60fe3253)
+
+
+# Performance
+* Sota on the AVA, TAD66K, FLICKR-AES datasets
+![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/e9ad3d0f-d42a-4c6b-87fd-460d2399c1f6)
+![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/0ab7f955-42d4-4d25-9ad7-1dd96a58b679)
+![image](https://github.com/woshidandan/Image-Aesthetics-Assessment/assets/15050507/ffade6f5-e1be-45ff-9be1-edfee459e08e)
 
 
 ## Environment Installation
