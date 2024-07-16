@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![3061DC1793F782822843B8AB62F6F6BC](https://github.com/user-attachments/assets/df3c6f03-55d8-412f-85a7-d92347f53e1f)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
 这是我们组在ACMMM 2023关于图像美学评估最新的一篇工作: 
@@ -54,6 +54,7 @@ offset奔着兴趣点所在的象限去，则削弱它的趋势，反之，则�
 * 我们用了微软的自动调参工具[nni](https://github.com/microsoft/nni)，网上有很多nni相关的[使用教程](https://blog.csdn.net/weixin_43653494/article/details/101039198)，强烈推荐同学们使用这个工具，不仅能自动调参，还能替代TensorBoard对训练过程的各项指标可视化。
 * 如果你安装好了nni之后，训练时请配置好config.yml和超参数文件search_space.json，然后运行nnictl create --config config.yml -p 8999，训练的可视化后台可以在本地的http://127.0.0.1:8999 或 http://172.17.0.3:8999 看到。
 * 如果你不想用这个工具训练或测试，只需要将代码中类似于param_group['lr']这样的超参数的中括号都改为param_group.lr就可以了。
+* EAT用到的预训练权重dat_base_in1k_224.pth搁这里下载：链接：https://pan.baidu.com/s/1kzXIp8V-QRSLOyRNMA-nUw?pwd=8888，提取码：8888
 
 # 如果你觉得这篇工作对你有帮助，请引用，不要白嫖-_-:
 ```
