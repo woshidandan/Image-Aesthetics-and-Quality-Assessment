@@ -51,7 +51,7 @@ Beijing University of Posts and Telecommunications
 
 
 ## How to Run&Check the Code
-1. download weights from: https://drive.google.com/drive/folders/1UpLYGLU5omztVsIWkRPFTVKAOVe_4p3K?usp=sharing
+1. download weights from: https://drive.google.com/drive/folders/1UpLYGLU5omztVsIWkRPFTVKAOVe_4p3K?usp=sharing，the weights of pre-train weight dat_base_in1k_224.pth：https://pan.baidu.com/s/1kzXIp8V-QRSLOyRNMA-nUw?pwd=8888   code：8888
 2. download datasets from their official website
 2. run main_nni.py
 
