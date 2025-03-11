@@ -3,7 +3,7 @@
 
 
 ## Image-Aesthetics-Assessment
-This repo contains the official implementation of the ACMMM 2023 paper:
+This repo contains the official implementation of the ACMMM 2023 paper: 
 
 <div align="center">
 <h1>
