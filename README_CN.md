@@ -66,7 +66,7 @@ offset奔着兴趣点所在的象限去，则削弱它的趋势，反之，则�
 }
 ```
 
-# 组内其它同类型工作:
+## Related Work from Our Group
 <table>
   <thead align="center">
     <tr>
@@ -77,6 +77,18 @@ offset奔着兴趣点所在的象限去，则削弱它的趋势，反之，则�
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model"><b>Attacker Against IAA Model【美学模型的攻击和安全评估框架】</b></a></td>
+      <td><b>TIP 2025</b></td>
+      <td><b>Code, Dataset</b></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/woshidandan/Attacker-against-image-aesthetics-assessment-model?style=flat-square&labelColor=343b41"/></td>
+    </tr
+    <tr>
+      <td><a href="https://github.com/woshidandan/Rethinking-Personalized-Aesthetics-Assessment"><b>Personalized Aesthetics Assessment【个性化美学评估新范式】</b></a></td>
+      <td><b>CVPR 2025</b></td>
+      <td><b>Code, Dataset</b></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/woshidandan/Rethinking-Personalized-Aesthetics-Assessment?style=flat-square&labelColor=343b41"/></td>
+    </tr>
     <tr>
       <td><a href="https://github.com/woshidandan/Pixel-level-No-reference-Image-Exposure-Assessment"><b>Pixel-level image exposure assessment【首个像素级曝光评估】</b></a></td>
       <td><b>NIPS 2024</b></td>
